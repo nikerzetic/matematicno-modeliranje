@@ -1,0 +1,21 @@
+function [] = cvet(a,b,n)
+% narise cvet iz elips v srediscni legi, kjer je vsaka naslednja zarotirana
+% za 2*pi/n glede na prejsnjo
+
+phi = @(t) [a*cos(t) b*sin(t)];
+
+theta = 2 * pi / n;
+R = [cos(theta) -sin(theta); sin(theta) cos(theta)];
+
+T = linspace(0,2*pi)';
+
+hold on
+
+for i = 1:n
+    
+   P = phi(T);
+   plot(P(:
+    
+end
+
+end

@@ -1,0 +1,21 @@
+f = @(x,y) sin(x.^2 - y.^4) ./ (x.^2 - y.^4);
+
+X = (0:0.01:1)';
+Y = (0:0.01:2)';
+[X,Y] = ndgrid(X,Y);
+
+F = f(X,Y);
+
+surf(X,Y,F)
+shading interp
+
+h = @(x,y) x.^2 - y.^4;
+H = h(X,Y);
+F(abs(H)<1e-10) = 1;
+
+surf(X,Y,F)
+shading interp
+
+m = find(F<10e-5);
+
+scatter3(X(m),Y(m),)
