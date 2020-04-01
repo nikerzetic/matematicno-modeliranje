@@ -1,0 +1,27 @@
+function X = ver_uv(W0,zac,L,M)
+% VER_UV resi problem veriznice iz sistema za u in v.
+% Rezultat X je 2x(n+2) tabela koordinat vozlisc, kjer
+% prva vrstica doloca abscise, druga ordinate iskanih tock.
+%
+% Vhodni parametri:
+% W0 = [u0;v0] zaceten priblizek pri resevanju sistema
+% nelinearnih enacb.
+% zac = [x_0 x_n+1;y_0 y_n+1], kjer sta (x_0,y_0) in
+% (x_n+1, y_n+1) obesisci.
+% L je vrstica, ki doloca dolzine palic.
+% M je vrstica, ki doloca mase palic.
+
+n = length(M);
+MI = zeros(1,n-1);
+NI = zeros(1,n);
+
+for i = 1:n-1
+    
+    MI(i) = (M(i) + M(i+1))/2;
+    NI(
+    
+end
+
+F = @(W) sistem_uv(W,zac,L,vsote_mi);
+
+end
