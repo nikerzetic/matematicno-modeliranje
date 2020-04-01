@@ -3,4 +3,4 @@ L = [2 1 1 1 1 2];
 M = [1 0.5 5 1 0.5 1];
 
 % risi_veriznica(zac,L,M);
-animacija(zac,L,M,-5);
+neprekinjena_animacija(zac,L,M,-6);

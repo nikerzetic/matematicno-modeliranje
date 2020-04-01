@@ -7,13 +7,13 @@ function animacija(zac,L,M,h)
 
 st_korakov = 500;
 dh = h/st_korakov;
-
+premor = 0.005;
 
 for i = 1:st_korakov
     
     zac(2,2) = zac(2,2) + dh;
     risi_veriznica(zac,L,M);
-    pause(0.02);
+    pause(premor);
     
 end
 
