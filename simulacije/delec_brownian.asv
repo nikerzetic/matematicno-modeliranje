@@ -1,0 +1,11 @@
+function T = delec_brownian(a, b, poz, delta, N)
+% Simulacija: Zacni v dani poziciji poz v pravokotniku [-a,a]x[-b,b]
+% in poisci najvecji krog, ki ga lahko vrises v ta pravokotnik.
+% Pojdi v nakljucno tocko na robu kroga in ce je razdalja do roba
+% pravokotnika manjsa kot delta, stej da si presel stranico.
+% T je tabela števila prehodov delca skozi straniec pravokotnika.
+% N je stevilo simulacij.
+
+for ponovitev
+
+end
