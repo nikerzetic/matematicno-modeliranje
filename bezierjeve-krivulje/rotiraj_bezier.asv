@@ -1,0 +1,14 @@
+function rotiraj_bezier(b,phi)
+% ROTIRAJ_BEZIER rotira Bezierovo krivuljo, podano s kontrolnimi
+% tockami b, za kot phi okrog prve kontrolne tocke. Izrise tudi
+% zacetno in rotirano krivuljo ter oba kontrolna poligona.
+
+plotBezier(b);
+R = [cos(phi) -sin(phi); sin(phi)
+for i = 1:size(b,2)
+   
+    
+    
+end
+
+end

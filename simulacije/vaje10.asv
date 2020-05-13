@@ -1,5 +1,0 @@
-% delec(5,3,true)
-% delec_brownian(10,5,[0;0],10e-10,1000,false)
-% delec_brownian(6,5,[0;0],10e-3,10,true)
-f = @(x) sin(10*x) + co
-simulirano_ohlajanje(
