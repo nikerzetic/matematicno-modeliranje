@@ -19,6 +19,7 @@ end
 
 kontrolne1(:,end) = b(:,end);
 kontrolne2(:,end) = b(:,end);
+kontrolne2 = flip(kontrolne2,2);
 
 if risanje
    plot(kontrolne1(1,:),kontrolne1(2,:),'r');
