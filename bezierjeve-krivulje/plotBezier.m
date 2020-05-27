@@ -11,7 +11,7 @@ for i = 1:length(B)
 end
 
 scatter(b(1,:),b(2,:),'k');
-axis equal; hold on;
+hold on;
 plot(b(1,:),b(2,:),'k');
 plot(B(1,:),B(2,:));
 
