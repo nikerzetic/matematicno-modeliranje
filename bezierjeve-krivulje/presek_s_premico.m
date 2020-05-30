@@ -11,7 +11,6 @@ Tp = [];
 P = pravokotnik(b);
 
 if norm(P(:,3) - P(:,1)) > tol
-    norm(P(:,3) - P(:,1));
     [c,d] = sub_demo(b,0.5,false);
     Pc = pravokotnik(c);
     Pd = pravokotnik(d);
